@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: rajbuggy
-        image: 289355592657.dkr.ecr.us-west-2.amazonaws.com/raj
+        image: 289355592657.dkr.ecr.us-west-2.amazonaws.com/raj:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
